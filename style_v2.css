@@ -16,11 +16,11 @@ h2{
 }
 #maintext{
 	text-align: left;
-	padding-left: 25px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 p{
-	text-align: center;
+	padding-left: 10px;
 }
 /**********************NAV*************************/
 .nav{
@@ -151,7 +151,7 @@ input[type=submit]:hover {
 .main {
 	display: grid;
 	grid-template-columns: 0px auto;
-	grid-template-rows: 75px 1350px 100px;
+	grid-template-rows: 75px 1000px 100px;
 	height: 100vh;
 }
 .contact_container {
@@ -184,6 +184,8 @@ input[type=submit]:hover {
 	clear: both;
 }
 .content{
+	overflow: auto;
+	z-index: 1;
 	box-sizing: border-box;
 	position: relative;
 	grid-columns-start: 1;
@@ -226,7 +228,7 @@ input[type=submit]:hover {
 }
 #top{
 	text-align: left;
-	padding-left: 25px;
+	padding-left: 45px;
 }
 #footertext{
 	float: left;
