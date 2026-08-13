@@ -125,7 +125,7 @@ p{
 	margin: -100px 0 0 -50px;
 	padding: 80px;
 	padding-top: 125px;
-	background: #ededed;
+	background-color: #91FF9E;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;
@@ -224,7 +224,7 @@ input[type=submit]:hover {
 	line-height: 28px;
 }
 .accordion {
-  background-color: #C4FFCB;
+  background-color: #91FF9E;
   color: #444;
   cursor: pointer;
   padding: 18px;
