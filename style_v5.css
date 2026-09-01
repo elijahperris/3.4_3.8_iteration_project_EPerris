@@ -15,13 +15,13 @@ hr{
 h1 {
 	font-size: 2.0em;
 	text-align: center;
-	font-style: bold;
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
 	text-align: center;
-	font-family:'Raleway', sans-serif;
+	font-family:'Montserrat', sans-serif;
 
 }
 #maintext{
@@ -38,16 +38,16 @@ p{
 	font-family:'Raleway', sans-serif;
 	text-align: center;
 }
-#accord{
+.accord{
 	font-family: 'Montserrat', sans-serif;
-	font-style: bold;
+	font-weight: bold;
 }
 /**********************NAV*************************/
 /* CSS Styling for nav and burger menu */
 .nav{
 	box-sizing: border-box;
 	background-color: #C4FFCB;
-	grid-columns-start: 1;
+	grid-column-start: 1;
 	grid-column-end: span 2;
 }
 #menuToggle
@@ -172,8 +172,8 @@ input[type=submit]:hover {
 .main {
 	display: grid;
 	grid-template-columns: 0px auto;
-	grid-template-rows: 75px 848px 60px;
-	height: 100vh;
+	grid-template-rows: 75px 100vh;
+	height: auto;
 }
 .contact_container {
 	border-radius: 5px;
@@ -184,7 +184,7 @@ input[type=submit]:hover {
 .header{
 	box-sizing: border-box;
 	background-color: #C4FFCB;
-	grid-columns-start: 1;
+	grid-column-start: 1;
 	grid-column-end: span 2;
 }
 .column {
@@ -209,19 +209,15 @@ input[type=submit]:hover {
 	z-index: 0;
 	box-sizing: border-box;
 	position: relative;
-	grid-columns-start: 1;
+	grid-column-start: 1;
 	grid-column-end: span 2;
 }
 .footer {
-	box-sizing: border-box;
 	background-color: #C4FFCB;
-	grid-columns-start: 1;
-	grid-column-end: span 2;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	text-align: center;
-	line-height: 28px;
+	height: 75px;
 }
 .accordion {
   background-color: #91FF9E;
@@ -253,6 +249,7 @@ input[type=submit]:hover {
 #footertext{
 	float: left;
 	padding-left: 10px;
+	padding-top: 10px;
 	
 }
 .placeholder{
